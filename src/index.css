@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.fc {
+  padding: 20px;
+  height: 100vh;
+}
+
+.fc-view-harness {
+  flex: 1;
+}
+
+.fc-view-harness-active {
+  padding-bottom: 0 !important;
+}
