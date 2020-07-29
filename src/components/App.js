@@ -21,7 +21,7 @@ function App() {
   }
 
   function handleEventClick(selection) {
-    if (window.confirm(`Are you sure you want to delete the event '${selection.event.title}'`)) {
+    if (window.confirm(`Voulez-vous supprimer le temps "${selection.event.title}" ?`)) {
       selection.event.remove();
     }
   }
