@@ -30,7 +30,7 @@ function App() {
     return (
       <>
         <i>{eventInfo.timeText}</i>
-        <b style={{marginLeft:5}}>{eventInfo.event.title}</b>
+        <b style={{ marginLeft: 5 }}>{eventInfo.event.title}</b>
       </>
     )
   }
@@ -59,6 +59,9 @@ function App() {
         eventContent={renderEventContent}
         eventsSet={saveEvents}
         longPressDelay={250}
+        slotDuration={{ minutes: 15 }}
+        slotLabelInterval={{ hours: 1 }}
+        scrollTime={{ hours: 8 }}
       />
     </>
   );
